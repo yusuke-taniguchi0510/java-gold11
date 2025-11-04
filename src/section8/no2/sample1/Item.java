@@ -2,8 +2,8 @@ package section8.no2.sample1;
 
 @Test(name = "test", price = 100)
 public class Item {
-    private String name;
-    private int price;
+    private final String name;
+    private final int price;
 
     public Item(String name, int price) {
         this.name = name;
